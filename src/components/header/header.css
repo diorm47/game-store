@@ -1,0 +1,27 @@
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header__store-title {
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 24px;
+     font-weight: bold;
+}
+.header__store-title:hover {
+    color: #d3cfcf;
+    text-decoration: underline;
+}
+
+.header__cart-btn-wrapper {
+    justify-content: flex-end;
+}
